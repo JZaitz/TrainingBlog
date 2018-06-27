@@ -1,4 +1,4 @@
- <h1>All Bodyweight Training Articles</h1>
+ <h1>Bodyweight Training Articles</h1>
 
 <ul id="articles">
   <% @articles.each do |article| %>
@@ -9,3 +9,4 @@
 </ul>
 
 <%= link_to "Create a New Article", new_article_path, class: "new_article" %>
+<br><%= link_to "<< All Taggings List", tags_path %>
